@@ -209,7 +209,7 @@ Then, restart all services
 ```bash
 systemctl restart nginx prosody jicofo jitsi-videobridge2
 ```
-And you are set. Now when you hit to your domain and create the room, it will ask for the authentication. Once authenticated you will be given as a moderator. In order to obtain jwt token:
+And you are set. Now when you hit to your domain and create the room, it will ask for the authentication. Once authenticated you will be given the role of a moderator. In order to obtain jwt token:
 ```
 1. go to jwt.io
 2.Paste this in Payload section 
