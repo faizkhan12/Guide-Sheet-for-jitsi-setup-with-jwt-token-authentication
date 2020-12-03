@@ -1,12 +1,12 @@
 # Introduction
 
-Since Ubuntu 20.04 Focal Fossa fairly new comparing to previous Ubuntu TLS Bionic Beaver, there are same differences when installing Jitsi with JWT support. So i decided to share a separate manual for the installation of Jitsi with JWT authentication support for Ubuntu 20.04 TLS.
+Since Ubuntu 20.04 Focal Fossa fairly new compared to the previous Ubuntu LTS Bionic Beaver, there are the same differences when installing Jitsi with JWT support. So I decided to share a separate manual for the installation of Jitsi with JWT authentication support for Ubuntu 20.04 LTS.
 
-Security is very important issue if we are talking about live conferencing. As Zoom had several security issues like Room Bombing, insecurity of personal data and encryption policies, Zoom was about to loose its reputation. Immediate actions are taken by the company to cover these security issues which was out of priority as a requirement for a very fast growing company during – and because of – COVID-19. 
+Security is a very important issue if we are talking about live conferencing. As Zoom had several security issues like Room Bombing, insecurity of personal data, and encryption policies, Zoom was about to lose its reputation. Immediate actions are taken by the company to cover these security issues which was out of priority as a requirement for a very fast-growing company during — and because of — COVID-19.
 
-Jitsi has JWT implementation to provide security for web conferencing. Basically Jitsi rooms can be created and/or joined after a successful JWT validation.
+Jitsi has JWT implementation to provide security for web conferencing. Basically, Jitsi rooms can be created and/or joined after a successful JWT validation.
 
-Jitsi with JWT is a very smart and simple solution perspective to add enhanced security to your Jitsi installations. But i must say it is not easy to find accurate documentation on that even on Jitsi Community portal. Now there are few posts about Jitsi with JWT in Jitsi Community forums. But for sake of simplicity I made this guide sheet to save the trouble that I had to endured.
+Jitsi with JWT is a very smart and simple solution perspective to add enhanced security to your Jitsi installations. But I must say it is not easy to find accurate documentation on that even on the Jitsi Community portal. Now there are few posts about Jitsi with JWT in Jitsi Community forums. But for sake of simplicity, I made this guide sheet to save the trouble that I had to endure.
 
 I am starting this tutorial with the understanding that the user has already setup his/her server with a domanin name. Any popular cloud service will do. I have used digital ocean for this purpose.
 
