@@ -6,7 +6,7 @@ Security is very important issue if we are talking about live conferencing. As Z
 
 Jitsi has JWT implementation to provide security for web conferencing. Basically Jitsi rooms can be created and/or joined after a successful JWT validation.
 
-Jitsi with JWT is a very smart and simple solution perspective to add enhanced security to your Jitsi installations. But i must say it is not easy to find accurate documentation on that even on Jitsi Community portal. For my first installation which i did last year – long time ago from COVID –  took me to much time to experiment and learn. Now there are few posts about Jitsi with JWT in Jitsi Community forums. But for sake of simplicity I make this guide sheet to save the trouble that I had to endured.
+Jitsi with JWT is a very smart and simple solution perspective to add enhanced security to your Jitsi installations. But i must say it is not easy to find accurate documentation on that even on Jitsi Community portal. Now there are few posts about Jitsi with JWT in Jitsi Community forums. But for sake of simplicity I made this guide sheet to save the trouble that I had to endured.
 
 I am starting this tutorial with the understanding that the user has already setup his/her server with a domanin name. Any popular cloud service will do. I have used digital ocean for this purpose.
 
